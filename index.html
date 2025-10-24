@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadisha Owoturo - Economics & Business Economics | Business Analyst & Marketing</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kadisha Owoturo - Final-year Economics & Business Economics student with expertise in data analysis, market research, and project management. Seeking business analyst or marketing roles.">
+    <meta name="keywords" content="Economics, Business Economics, Business Analyst, Marketing, Data Analysis, Market Research, Utrecht University">
+    <meta name="author" content="Kadisha Owoturo">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Kadisha Owoturo - Economics & Business Economics | Business Analyst & Marketing">
+    <meta property="og:description" content="Final-year Economics & Business Economics student with expertise in data analysis, market research, and project management.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    
+    <!-- Favicon Placeholder -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>KO</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Embedded Styles -->
+    <style>
+        /* CSS Variables for Theme */
+        :root {
+            --color-primary: #2c2c2c;
+            --color-secondary: #666666;
+            --color-accent: #d4a574;
+            --color-background: #fefefe;
+            --color-surface: #ffffff;
+            --color-border: #e5e5e5;
+            --color-text: #2c2c2c;
+            --color-text-light: #666666;
+            --color-success: #10b981;
+            --color-error: #ef4444;
+            
+            --font-display: 'Playfair Display', serif;
+            --font-body: 'Inter', sans-serif;
+            
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            --spacing-2xl: 4rem;
+            
+            --border-radius: 12px;
+            --border-radius-lg: 24px;
+            --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.06);
+            --shadow-medium: 0 8px 32px rgba(0, 0, 0, 0.12);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Dark Mode Variables */
+        [data-theme="dark"] {
+            --color-primary: #ffffff;
+            --color-secondary: #a1a1a1;
+            --color-accent: #d4a574;
+            --color-background: #0f0f0f;
+            --color-surface: #1a1a1a;
+            --color-border: #2a2a2a;
+            --color-text: #ffffff;
+            --color-text-light: #a1a1a1;
+        }
+        
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--color-text);
+            background-color: var(--color-background);
+            transition: var(--transition);
+        }
+        
+        /* Reduce motion for accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+        }
+        
+        p {
+            margin-bottom: var(--spacing-md);
+            color: var(--color-text-light);
+        }
+        
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Layout Components */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+        
+        .section {
+            padding: var(--spacing-2xl) 0;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: var(--spacing-sm) 0;
+            border-bottom: 1px solid var(--color-border);
+            transition: var(--transition);
+        }
+        
+        [data-theme="dark"] .nav {
+            background: rgba(15, 15, 15, 0.95);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .nav-logo:hover {
+            transform: scale(1.05);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: var(--spacing-lg);
+        }
+        
+        .nav-link {
+            color: var(--color-secondary);
+            font-weight: 500;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--color-primary);
+        }
+        
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--color-accent);
+            border-radius: 1px;
+        }
+        
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+        
+        /* Theme Toggle */
+        .theme-toggle {
+            background: none;
+            border: 2px solid var(--color-border);
+            border-radius: 50px;
+            padding: var(--spacing-xs);
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .theme-toggle:hover {
+            border-color: var(--color-accent);
+            transform: scale(1.1);
+        }
+        
+        .theme-toggle:focus {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+        }
+        
+        /* Mobile Navigation */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--color-primary);
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-2xl);
+            align-items: center;
+        }
+        
+        .hero-image {
+            position: relative;
+        }
+        
+        .hero-photo {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-medium);
+            transition: var(--transition);
+        }
+        
+        .hero-photo:hover {
+            transform: rotate(2deg) scale(1.02);
+        }
+        
+        .hero-text h1 {
+            margin-bottom: var(--spacing-sm);
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            color: var(--color-secondary);
+            margin-bottom: var(--spacing-lg);
+            font-weight: 500;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        
+        .btn:focus {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+        }
+        
+        .btn-primary {
+            background: var(--color-accent);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-primary);
+            border: 2px solid var(--color-border);
+        }
+        
+        .btn-secondary:hover {
+            border-color: var(--color-accent);
+            transform: translateY(-2px);
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--color-surface);
+            border-radius: var(--border-radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+            opacity: 0;
+            transition: var(--transition);
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .card:hover::before {
+            opacity: 1;
+        }
+        
+        /* Enhanced Section Headers */
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--spacing-2xl);
+            position: relative;
+        }
+        
+        .section-header h2 {
+            margin-bottom: var(--spacing-sm);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+            border-radius: 2px;
+        }
+        
+        .section-subtitle {
+            color: var(--color-text-light);
+            font-size: 1.125rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-2xl);
+        }
+        
+        .skill-category {
+            position: relative;
+            padding: var(--spacing-xl);
+            background: var(--color-surface);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+            overflow: hidden;
+        }
+        
+        .skill-category::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+        }
+        
+        .skill-category:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .skill-category h3 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-lg);
+            font-size: 1.375rem;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: var(--spacing-sm);
+        }
+        
+        .skill-category h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--color-accent);
+            border-radius: 1px;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+        }
+        
+        .skill-tag {
+            background: linear-gradient(135deg, var(--color-accent), #e8b872);
+            color: white;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: 25px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: default;
+            box-shadow: 0 2px 8px rgba(212, 165, 116, 0.3);
+        }
+        
+        .skill-tag:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.4);
+        }
+        
+        /* Experience Timeline */
+        .experience-timeline {
+            position: relative;
+            padding-left: var(--spacing-lg);
+        }
+        
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--color-accent), transparent);
+        }
+        
+        .experience-item {
+            margin-bottom: var(--spacing-2xl);
+            position: relative;
+            background: var(--color-surface);
+            border-radius: var(--border-radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+            margin-left: var(--spacing-lg);
+        }
+        
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: calc(-1 * var(--spacing-lg) - 6px);
+            top: var(--spacing-lg);
+            width: 12px;
+            height: 12px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--color-background);
+        }
+        
+        .experience-item:hover {
+            transform: translateX(8px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-md);
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+        }
+        
+        .experience-title {
+            font-size: 1.375rem;
+            font-weight: 600;
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .experience-company {
+            color: var(--color-accent);
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+        
+        .experience-date {
+            color: var(--color-secondary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            background: var(--color-background);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: 20px;
+            border: 1px solid var(--color-border);
+            white-space: nowrap;
+        }
+        
+        .experience-description {
+            margin-top: var(--spacing-md);
+        }
+        
+        .experience-description ul {
+            list-style: none;
+            padding-left: 0;
+            display: grid;
+            gap: var(--spacing-sm);
+        }
+        
+        .experience-description li {
+            position: relative;
+            padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-sm) var(--spacing-xl);
+            color: var(--color-text-light);
+            background: var(--color-background);
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--color-accent);
+            transition: var(--transition);
+        }
+        
+        .experience-description li:hover {
+            background: var(--color-accent);
+            color: white;
+            transform: translateX(4px);
+        }
+        
+        .experience-description li::before {
+            content: '✓';
+            position: absolute;
+            left: var(--spacing-sm);
+            top: var(--spacing-sm);
+            color: var(--color-accent);
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+        
+        .experience-description li:hover::before {
+            color: white;
+        }
+        
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-2xl);
+        }
+        
+        .project-card {
+            background: var(--color-surface);
+            border-radius: var(--border-radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .project-number {
+            position: absolute;
+            top: var(--spacing-md);
+            right: var(--spacing-md);
+            width: 32px;
+            height: 32px;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        
+        .project-title {
+            font-size: 1.375rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+            font-weight: 600;
+            line-height: 1.3;
+            padding-right: var(--spacing-xl);
+        }
+        
+        .project-description {
+            color: var(--color-text-light);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.7;
+            flex-grow: 1;
+        }
+        
+        .project-footer {
+            margin-top: auto;
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--color-border);
+        }
+        
+        .project-skills {
+            font-size: 0.875rem;
+            color: var(--color-accent);
+            font-weight: 600;
+            background: var(--color-background);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: 20px;
+            display: inline-block;
+            border: 1px solid var(--color-border);
+        }
+        
+        /* Contact Form */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-2xl);
+            align-items: start;
+            margin-top: var(--spacing-2xl);
+        }
+        
+        .contact-info {
+            background: var(--color-surface);
+            padding: var(--spacing-xl);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .contact-info::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+        }
+        
+        .contact-info:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .contact-info h3 {
+            margin-bottom: var(--spacing-lg);
+            color: var(--color-primary);
+            font-size: 1.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-xl);
+            padding: var(--spacing-md);
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+        
+        .contact-item:hover {
+            background: var(--color-background);
+            border-color: var(--color-border);
+            transform: translateX(4px);
+        }
+        
+        .contact-icon {
+            width: 28px;
+            height: 28px;
+            color: var(--color-accent);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .contact-item strong {
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+        
+        .contact-item a {
+            color: var(--color-accent);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .contact-item a:hover {
+            color: var(--color-primary);
+        }
+        
+        .contact-form {
+            background: var(--color-surface);
+            padding: var(--spacing-xl);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--color-border);
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .contact-form::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-accent), #e8b872);
+        }
+        
+        .contact-form:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .contact-form h3 {
+            margin-bottom: var(--spacing-lg);
+            color: var(--color-primary);
+            font-size: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+            color: var(--color-primary);
+        }
+        
+        .form-input,
+        .form-textarea {
+            width: 100%;
+            padding: var(--spacing-md);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius);
+            font-family: inherit;
+            font-size: 1rem;
+            background: var(--color-background);
+            color: var(--color-text);
+            transition: var(--transition);
+        }
+        
+        .form-input:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
+            transform: translateY(-1px);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 140px;
+        }
+        
+
+        
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: var(--spacing-lg);
+            right: var(--spacing-lg);
+            width: 50px;
+            height: 50px;
+            background: var(--color-accent);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: var(--transition);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .hero-text {
+                order: 2;
+            }
+            
+            .hero-image {
+                order: 1;
+            }
+            
+            .hero-buttons {
+                justify-content: center;
+            }
+            
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-lg);
+            }
+            
+            .experience-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 var(--spacing-sm);
+            }
+            
+            .section {
+                padding: var(--spacing-xl) 0;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-logo" onclick="scrollToTop()" role="button" tabindex="0" aria-label="Scroll to top">
+                    KO
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                    <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+                
+                <div class="nav-controls">
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                        <span id="theme-icon">🌙</span>
+                    </button>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle mobile menu">
+                        ☰
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="IMG_0600.jpeg" 
+                         alt="Kadisha Owoturo - Professional headshot" 
+                         class="hero-photo">
+                </div>
+                
+                <div class="hero-text">
+                    <h1>Kadisha Owoturo</h1>
+                    <p class="hero-subtitle">Economics & Business Economics | Business Analyst & Marketing</p>
+                    
+                    <div class="hero-buttons">
+                        <!-- TODO: Replace # with actual CV download link -->
+                        <a href="#" class="btn btn-primary" aria-label="Download CV">
+                            📄 Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" aria-label="Contact me">
+                            💬 Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p class="section-subtitle">Dedicated to unlocking the power of data through rigorous analysis, translating complex economic patterns into actionable business strategies that drive measurable growth and competitive advantage.</p>
+            </div>
+            <div class="card">
+                <div style="display: grid; gap: var(--spacing-lg);">
+                    <div>
+                        <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-md); font-size: 1.25rem;">Professional Profile</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--spacing-md);">
+                            <strong>Final-year Economics & Business Economics student</strong> with a <strong>Minor in Law</strong>, bringing extensive experience in data analysis, market research, and project management.
+                        </p>
+                        <p style="line-height: 1.7; margin-bottom: var(--spacing-md);">
+                            Successfully completed comprehensive research and projects spanning <em>business strategy</em>, <em>marketing</em>, and <em>sustainability-related litigation</em>, expertly applying both quantitative and qualitative methodologies.
+                        </p>
+                    </div>
+                    
+                    <div style="background: var(--color-background); padding: var(--spacing-lg); border-radius: var(--border-radius); border-left: 4px solid var(--color-accent);">
+                        <h4 style="color: var(--color-primary); margin-bottom: var(--spacing-md); font-size: 1.125rem;">Core Competencies</h4>
+                        <p style="line-height: 1.7; margin-bottom: var(--spacing-sm);">
+                            <strong>Technical Skills:</strong> Proficient in Qualtrics, NVivo, Excel, Stata, and FactSet
+                        </p>
+                        <p style="line-height: 1.7; margin-bottom: var(--spacing-sm);">
+                            <strong>Analytical Expertise:</strong> Translating complex data into actionable business insights
+                        </p>
+                        <p style="line-height: 1.7; color: var(--color-accent); font-weight: 500;">
+                            <strong>Career Objective:</strong> Seeking a business analyst or marketing role to leverage analytical, strategic, and communication skills
+                        </p>
+                    </div>
+                </div>
+                
+                <h3 style="margin-top: var(--spacing-xl); margin-bottom: var(--spacing-lg);">Education</h3>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">BSc Economics & Business Economics</div>
+                            <div class="experience-company">Utrecht University</div>
+                        </div>
+                        <div class="experience-date">Expected 2025</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Minor in Law</li>
+                            <li>Relevant coursework: Data Analysis, Strategy, Marketing, Corporate Law and regulation, Econometrics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <p class="section-subtitle">Building expertise through hands-on experience in fashion design, project management, and client relations.</p>
+            </div>
+            
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Fashion Designer Intern</div>
+                            <div class="experience-company">Kai Collective</div>
+                        </div>
+                        <div class="experience-date">08/2024 – 07/2025</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Managed multiple projects alongside coursework and thesis research (time management, prioritization)</li>
+                            <li>Designed and executed fashion collections under tight deadlines (creativity, problem-solving)</li>
+                            <li>Prepared technical design information (garment styles, necklines, sleeve types, balloon/bubble shapes, intended materials) for production clarity</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Independent Fashion Designer (Contractor)</div>
+                            <div class="experience-company">Confidential Client (NDA)</div>
+                        </div>
+                        <div class="experience-date">14/07/2025 – 14/10/2025</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Designed and executed collections under time constraints</li>
+                            <li>Managed client relations from consultation to delivery (communication, organization)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Academic Projects</h2>
+                <p class="section-subtitle">Comprehensive research and analysis projects demonstrating expertise in business strategy, marketing, and financial analysis.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-number">1</div>
+                    <h3 class="project-title">Thesis: Event Study on Litigation Risk and Firm Valuation</h3>
+                    <div class="project-description">
+                        <p style="margin-bottom: var(--spacing-md); font-weight: 500; color: var(--color-primary);">
+                            <strong>My Thesis topic:</strong> How do board characteristics influence the likelihood of sustainability-related litigation in fashion industry firms, and what is the impact of such litigation on firm valuation?
+                        </p>
+                        <ul style="margin-bottom: var(--spacing-md);">
+                            <li>Conducted a thesis research project performing an event study on fashion companies including H&M, Nike, Lululemon, Adidas, Ralph Lauren, and Burberry.</li>
+                            <li>Calculated abnormal returns (ARs) and cumulative abnormal returns (CARs) using Stata to assess market reactions to sustainability-related litigation.</li>
+                            <li>Analyzed financial data across multiple event windows: [-1,+1], [-3,+3], [-5,+5], and [-10,+10].</li>
+                            <li>Found that sustainability lawsuits and controversies typically cause short-term share price drops, with partial recovery over time.</li>
+                            <li>Identified the influence of board composition, showing that companies with more women on boards often face closer scrutiny.</li>
+                            <li>Determined that ESG committees and sustainability experts do not consistently prevent legal or reputational risks, highlighting gaps in governance effectiveness.</li>
+                            <li>Concluded that many corporate governance measures remain symbolic rather than truly effective in mitigating ESG-related risks.</li>
+                            <li>Highlighted that strengthening board accountability and enhancing regulatory enforcement can improve ESG effectiveness in the fashion industry.</li>
+                            <li>Developed expertise in financial data analysis, event study methodology, and translating quantitative results into actionable regulatory and strategic insights.</li>
+                            <li>Strengthened skills in quantitative research, reporting, and presenting complex findings for strategic decision-making.</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <p class="project-skills">Skills: Financial data analysis, event study methodology, quantitative analysis</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">2</div>
+                    <h3 class="project-title">Strategy & Management Project</h3>
+                    <div class="project-description">
+                        <ul style="margin-bottom: var(--spacing-md);">
+                            <li>Analyzed the strategic adaptation and performance of European firms using ThyssenKrupp and Enea as case studies.</li>
+                            <li>Researched company strategies, performance metrics, and external market influences, applying frameworks such as SWOT, PESTEL, and Porter’s Five Forces.</li>
+                            <li>Compared successful and unsuccessful strategic approaches to identify key drivers of business performance and resilience in changing market conditions.</li>
+                            <li>Developed clear, actionable recommendations based on findings.</li>
+                            <li>Delivered a 4,000-word report and a 15-minute group presentation summarizing insights and recommendations.</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <p class="project-skills">Skills: Strategic analysis, business frameworks, presentation</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">3</div>
+                    <h3 class="project-title">Corporate Law & Regulation Analysis</h3>
+                    <div class="project-description">
+                        <ul style="margin-bottom: var(--spacing-md);">
+                            <li>Conducted a research project in the Corporate Law and Regulation course on Nike’s diversity and inclusion reporting within its annual reports.</li>
+                            <li>Evaluated how Nike’s reporting aligns with applicable regulatory frameworks, analyzing both quantitative disclosures (e.g., workforce metrics) and qualitative narratives (e.g., policies and commitments).</li>
+                            <li>Identified gaps in reporting and benchmarked against industry best practices to highlight areas for stronger compliance and transparency.</li>
+                            <li>Developed actionable recommendations to enhance both regulatory compliance and strategic communication of diversity and inclusion initiatives.</li>
+                            <li>Analyzed the impact of reporting practices on stakeholder trust, regulatory scrutiny, and brand positioning.</li>
+                            <li>Demonstrated ability to translate complex legal and business data into clear, data-driven recommendations relevant to business analysis, compliance, and marketing roles.</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <p class="project-skills">Skills: Legal analysis, regulatory compliance, policy recommendations</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">4</div>
+                    <h3 class="project-title">Marketing Project: Nike vs Adidas</h3>
+                    <div class="project-description">
+                        <ul style="margin-bottom: var(--spacing-md);">
+                            <li>Led a group project producing a 6,000+ word paper and presentation comparing the marketing strategies of Nike and Adidas, focusing on effectiveness, messaging, and target audience reach.</li>
+                            <li>Took initiative in coordinating the team, managing contributions, and completing the majority of the data analysis and interpretation.</li>
+                            <li>Designed and distributed surveys using Qualtrics, then coded responses and applied hypothesis testing (correlations, p-values) to measure the effectiveness of different marketing approaches.</li>
+                            <li>Combined survey insights with independent research on brand positioning and broader market trends to evaluate each company’s strategy.</li>
+                            <li>Took on the challenge of analyzing two firms (Nike and Adidas) despite the assignment typically requiring only one, demonstrating ambition and strong analytical capacity. Received positive feedback from the tutor, who was impressed by the ability to handle the added complexity, especially as many groups struggled with a single company.</li>
+                            <li>Developed actionable recommendations for Nike and Adidas to address gaps and strengthen their marketing impact.</li>
+                            <li>Independently created and delivered the PechaKucha presentation after team members were unavailable, ensuring the project was represented at a high standard. Handled the audience Q&A with confidence, demonstrating adaptability, composure, and strong communication skills under pressure.</li>
+                            <li>Built expertise in leadership, quantitative and qualitative analysis, hypothesis testing, and translating consumer insights into strategic recommendations.</li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <p class="project-skills">Skills: Market research, statistical analysis, data visualization</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">5</div>
+                    <h3 class="project-title">Entrepreneurship Project: Student Food Startup</h3>
+                    <div class="project-description">
+                        <ul style="margin-bottom: var(--spacing-md);">
+                            <li>Developed a start-up business plan tackling the lack of affordable and accessible food options for students on campus, proposing a pancake vending machine concept as an innovative solution.</li>
+                            <li>Designed a long-term growth outlook, with potential expansion into other student-friendly offerings (e.g., omelettes, rice bowls, burritos).</li>
+                            <li>Conducted customer interviews and transcriptions to validate the problem and integrate real student needs into the solution design.</li>
+                            <li>Built a comprehensive business model, covering revenue streams, competitive positioning, and financial projections.</li>
+                            <li>Created a minimum viable product (MVP) landing page and integrated Google Analytics to test scalability, achieving 195 website visitors and 34 student sign-ups.</li>
+                            <li>Went beyond standard project expectations by incorporating a working website with analytics tracking, while most teams were unable to add this element — demonstrating initiative, technical adaptability, and data-driven thinking.</li>
+                            <li>Independently designed and created the project presentation, ensuring the concept was communicated clearly and professionally.</li>
+                            <li>Promotional video produced by a team member helped demonstrate the product in action to communicate the concept to stakeholders and potential users.</li>
+                            <li>Completed the project within a 6-week timeframe, demonstrating skills in entrepreneurship, digital marketing, data-driven validation, and business model design.</li>
+                            <li>Link to PANCAKE website: <a href="https://b001418671.github.io/pancake/" target="_blank" rel="noopener noreferrer">https://b001418671.github.io/pancake/</a></li>
+                        </ul>
+                    </div>
+                    <div class="project-footer">
+                        <p class="project-skills">Skills: Product development, customer validation, digital marketing, KPI reporting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Languages</h2>
+                <p class="section-subtitle">Technical expertise and soft skills developed through academic projects and professional experience.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Analytical & Business Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Stata</span>
+                        <span class="skill-tag">FactSet</span>
+                        <span class="skill-tag">NVivo</span>
+                        <span class="skill-tag">Qualtrics</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Marketing & Strategy</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Market Research</span>
+                        <span class="skill-tag">Trend Analysis</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">Storytelling</span>
+                        <span class="skill-tag">Data Visualization</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">English (Native/Fluent)</span>
+                        <span class="skill-tag">French (Basic - A1)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Links -->
+            <div class="card" style="margin-top: var(--spacing-lg);">
+                <h3>Portfolio Links</h3>
+                <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap; margin-top: var(--spacing-md);">
+                    <!-- TODO: Replace # with actual portfolio links -->
+                    <a href="#" class="btn btn-secondary">🌐 Website / CV Portfolio</a>
+                    <a href="#" class="btn btn-secondary">📊 PowerPoint Presentations</a>
+                    <a href="#" class="btn btn-secondary">📸 Project Gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Ready to collaborate? Let's discuss how my analytical skills and business expertise can contribute to your team's success.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        <div>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:owoturokadisha@gmail.com">owoturokadisha@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                        <div>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+31648839574">+31 648839574</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                        </svg>
+                        <div>
+                            <strong>LinkedIn:</strong><br>
+                            <a href="http://linkedin.com/in/kadisha-owoturo-50848a275" target="_blank" rel="noopener noreferrer">kadisha-owoturo-50848a275</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <h3>Send a Message</h3>
+                    
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" id="name" name="name" class="form-input" required aria-describedby="name-error">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="email" class="form-input" required aria-describedby="email-error">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-textarea" required aria-describedby="message-error"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+        ↑
+    </button>
+
+
+
+    <!-- JavaScript -->
+    <script>
+        // Theme Management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        }
+        
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        }
+        
+        function updateThemeIcon(theme) {
+            const icon = document.getElementById('theme-icon');
+            icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+        
+        // Navigation Management
+        function initNavigation() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.section, .hero');
+            
+            // Add click event listeners to nav links
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        const offsetTop = targetSection.offsetTop - 80;
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Intersection Observer for active nav highlighting
+            const observerOptions = {
+                root: null,
+                rootMargin: '-80px 0px -50% 0px',
+                threshold: 0
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const sectionId = entry.target.id;
+                        updateActiveNavLink(sectionId);
+                    }
+                });
+            }, observerOptions);
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        }
+        
+        function updateActiveNavLink(sectionId) {
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-section') === sectionId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Scroll Animations
+        function initScrollAnimations() {
+            const sections = document.querySelectorAll('.section');
+            
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -100px 0px',
+                threshold: 0.1
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        }
+        
+        // Back to Top Button
+        function initBackToTop() {
+            const backToTopBtn = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 600) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+            });
+        }
+        
+        // Form Handling
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            // Basic validation
+            const name = formData.get('name').trim();
+            const email = formData.get('email').trim();
+            const message = formData.get('message').trim();
+            
+            if (!name || !email || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            if (!isValidEmail(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // Simulate form submission
+            alert('Message sent successfully! I\'ll get back to you soon.');
+            form.reset();
+        }
+        
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+        
+
+        
+        // Mobile Menu (placeholder for future implementation)
+        function toggleMobileMenu() {
+            // TODO: Implement mobile menu toggle
+            console.log('Mobile menu toggle - to be implemented');
+        }
+        
+        // Keyboard Navigation
+        function initKeyboardNavigation() {
+            // Add keyboard support for logo
+            const logo = document.querySelector('.nav-logo');
+            logo.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    scrollToTop();
+                }
+            });
+            
+            // Add keyboard support for theme toggle
+            const themeToggle = document.querySelector('.theme-toggle');
+            themeToggle.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleTheme();
+                }
+            });
+        }
+        
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            initNavigation();
+            initScrollAnimations();
+            initBackToTop();
+            initKeyboardNavigation();
+        });
+        
+        // Handle reduced motion preference
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.documentElement.style.setProperty('--transition', 'none');
+        }
+    </script>
+</body>
+</html>
