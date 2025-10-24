@@ -197,6 +197,10 @@
             gap: var(--spacing-lg);
         }
         
+        .nav-links.mobile-visible {
+            display: flex;
+        }
+        
         .nav-link {
             color: var(--color-secondary);
             font-weight: 500;
@@ -902,6 +906,19 @@
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: rgba(255,255,255,0.98);
+                flex-direction: column;
+                gap: var(--spacing-md);
+                padding: var(--spacing-lg) 0;
+                z-index: 1001;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            }
+            .nav-links.mobile-visible {
+                display: flex;
             }
             
             .mobile-menu-btn {
@@ -1584,8 +1601,8 @@
         
         // Mobile Menu (placeholder for future implementation)
         function toggleMobileMenu() {
-            // TODO: Implement mobile menu toggle
-            console.log('Mobile menu toggle - to be implemented');
+            const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('mobile-visible');
         }
         
         // Keyboard Navigation
