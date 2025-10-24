@@ -937,12 +937,18 @@
             
             .projects-grid {
                 grid-template-columns: 1fr;
-                overflow-x: auto;
+                overflow-x: visible;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: block;
             }
             .project-card {
-                min-width: 0;
                 width: 100%;
+                min-width: unset;
                 box-sizing: border-box;
+                margin-bottom: var(--spacing-xl);
+                display: block;
             }
             
             .skills-grid {
