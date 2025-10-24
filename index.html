@@ -935,21 +935,31 @@
                 align-items: flex-start;
             }
             
-            .projects-grid {
-                grid-template-columns: 1fr;
-                overflow-x: visible;
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                display: block;
-            }
-            .project-card {
-                width: 100%;
-                min-width: unset;
-                box-sizing: border-box;
-                margin-bottom: var(--spacing-xl);
-                display: block;
-            }
+            #projects.section {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: none !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+    .projects-grid {
+        display: block !important;
+        width: 100% !important;
+        overflow-x: visible !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .project-card {
+        display: block !important;
+        width: 100% !important;
+        min-width: unset !important;
+        box-sizing: border-box !important;
+        margin-bottom: var(--spacing-xl) !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: auto !important;
+    }
             
             .skills-grid {
                 grid-template-columns: 1fr;
@@ -983,6 +993,30 @@
             .btn {
                 width: 100%;
                 justify-content: center;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr !important;
+                overflow-x: visible !important;
+                width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                display: block !important;
+                visibility: visible !important;
+            }
+            .project-card {
+                width: 100% !important;
+                min-width: unset !important;
+                box-sizing: border-box !important;
+                margin-bottom: var(--spacing-xl) !important;
+                display: block !important;
+                overflow: visible !important;
+                visibility: visible !important;
+            }
+            #projects.section {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
             }
         }
     </style>
